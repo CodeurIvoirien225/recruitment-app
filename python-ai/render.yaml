@@ -1,7 +1,7 @@
 services:
   - type: web
-    name: recruitment-ai
+    name: recruitment-app
     env: python
     pythonVersion: 3.11.8
-    buildCommand: "pip install --upgrade pip && pip install -r requirements.txt"
+    buildCommand: "python -m pip install --upgrade pip setuptools wheel && pip install -r requirements.txt"
     startCommand: "python main.py"
