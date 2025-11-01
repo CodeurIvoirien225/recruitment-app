@@ -2,6 +2,9 @@
 backend-php/vendor/
 backend-php/composer.lock
 backend-php/.env
+# Ignorer le fichier de mots de passe PHP
+backend-php/includes/mot_de_pass.php
+
 
 # --- React Frontend ---
 frontend-react/node_modules/
