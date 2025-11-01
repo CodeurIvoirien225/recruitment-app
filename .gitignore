@@ -1,0 +1,19 @@
+# --- Backend PHP ---
+backend-php/vendor/
+backend-php/composer.lock
+backend-php/.env
+
+# --- React Frontend ---
+frontend-react/node_modules/
+frontend-react/.env
+frontend-react/build/
+
+# --- Python AI ---
+python-ai/__pycache__/
+python-ai/venv/
+python-ai/.env
+
+# --- General ---
+*.log
+.DS_Store
+.env
